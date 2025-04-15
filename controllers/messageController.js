@@ -9,6 +9,13 @@ const postCreateMessage = async (req, res) => {
                 senderId: req.user.id,
                 receiverId,
                 content
+            },
+            include: {
+                sender: {
+                    include: {
+                        profile: true
+                    }
+                }
             }
         });
 
@@ -22,7 +29,6 @@ const getMessages = async (req, res) => {
     try {
         const { senderId } = req.query;
 
-        // get messages where sender is current user and receiver is senderId AND where sender is senderId and receiver is current user
         const messages = await Message.findMany({
             where: {
               OR: [
