@@ -112,4 +112,5 @@ Wisp Backend is a RESTful API built with Node.js, Express, and PostgreSQL with P
 5. Open a Pull Request
 
 ## License
-[MIT License](LICENSE)
+
+MIT License
