@@ -23,7 +23,7 @@ Wisp Backend is a RESTful API built with Node.js, Express, and PostgreSQL with P
 1. Clone the repository:
    ```
    git clone https://github.com/JoseVS1/messaging-app-api.git
-   cd wisp-backend
+   cd messaging-app-api
    ```
 
 2. Install dependencies:
