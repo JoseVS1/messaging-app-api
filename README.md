@@ -2,7 +2,7 @@
 A robust Express-based API for a real-time messaging application with user authentication, profile management, and secure messaging functionality.
 
 ## Overview
-Wisp Backend is a RESTful API built with Node.js, Express, and PostgreSQL with Prisma ORM. It provides secure user authentication, profile management, and real-time messaging capabilities for a modern chat application.
+Wisp Backend is a RESTful API built with Node.js, Express, and PostgreSQL with Prisma ORM. It provides secure user authentication, profile management, and messaging capabilities for a modern chat application.
 
 ## Features
 - User Authentication: Secure signup, login, and JWT-based authorization
